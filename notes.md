@@ -14,13 +14,8 @@ Thank you to everyone who helped us by providing feedback on the pre-release.
 - [**Multiple data sources**](https://docs.evidence.dev/core-concepts/data-sources/#connect-your-data-sources): query and join data from multiple databases, flat files and / or other third party data sources
 - [**Pluggable connectors and components**](https://docs.evidence.dev/plugins/source-plugins): easily add your own custom sources
 
-## Universal SQL Guides
+## Docs & Guides
 - **New docs site** for Universal SQL is live at [docs.evidence.dev](https://docs.evidence.dev)
 - **Legacy docs site accessible** at [legacy.docs.evidence.dev](https://legacy.docs.evidence.dev)
 - [**Migration guide**](https://docs.evidence.dev/guides/usql-migration-guide) - to assist with migrating your existing legacy Evidence project, and change deprecated syntax
 - [**VSCode migration script**](https://docs.evidence.dev/guides/usql-migration-guide): to migrate legacy projects to USQL
-
-
-## Deprecated
-- **Data referencing:** `{data.my_query}` in favour of `{my_query}`
-- **Legacy style filtering:** `let myvar = my_query.filter(...)` in favour of `$: myvar = my_query.filter(...)` (though you may be better off filtering in SQL)
